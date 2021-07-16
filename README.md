@@ -5,10 +5,12 @@
 openrasp agent官方文档提供的编译方法，在对V8代码进行编译时需要部署复杂的编译环境，编译过程在本地执行较为繁琐。我们通过对编译环境的容器化开发，实现了简易编译openrasp agent的功能。
 
 ## 文件结构
-[Dockerfile:制作编译镜像文件的dockerfile，需自行下载1，jdk-7u80-linux-x64.rpm(https://www.oracle.com/java/technologies/javase/javase7-archive-downloads.html)，2，apache-maven-3.2.3-bin.zip（https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.2.3/apache-maven-3.2.3-bin.zip）](https://gitee.com/openraspfans/openrasp-compile-env/blob/master/Dockerfile)
-[settings.xml：编译镜像制作依赖文件](https://gitee.com/openraspfans/openrasp-compile-env/blob/master/settings.xml)
-[docker-compose.yml：编译镜像编排、启动文件](https://gitee.com/openraspfans/openrasp-compile-env/blob/master/docker-compose.yml)
-[genenginejar.sh：openrasp一键式编译脚本](https://gitee.com/openraspfans/openrasp-compile-env/blob/master/genenginejar.sh)
+- [Dockerfile:制作编译镜像文件的dockerfile](Dockerfile)
+  - 需自行下载1. [jdk-7u80-linux-x64.rpm](https://www.oracle.com/java/technologies/javase/javase7-archive-downloads.html)
+  - 需自行下载2. [apache-maven-3.2.3-bin.zip](https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.2.3/apache-maven-3.2.3-bin.zip)
+- [settings.xml：编译镜像制作依赖文件](settings.xml)
+- [docker-compose.yml：编译镜像编排、启动文件](docker-compose.yml)
+- [genenginejar.sh：openrasp一键式编译脚本](genenginejar.sh)
 
 
 
