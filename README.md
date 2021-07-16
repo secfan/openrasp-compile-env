@@ -24,13 +24,14 @@ Linux服务器安装docker、docker-compose
 ```
 #下载源码，进入工作目录
 cd ~
-git clone https://gitee.com/openraspfans/openrasp-compile-env.git
+git clone https://github.com/secfans/openrasp-compile-env.git
 ```
 
 2、从dockerhub拉取openrasp-compile-env 1.0版本镜像
 
 ```
-docker pull username/malina0316/openrasp-compile-env:1.0
+docker login https://ghcr.io
+docker pull ghcr.io/secfans/openrasp-compile-env:1.0
 ```
 
 3、下载openrasp源码
