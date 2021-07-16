@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  openrasp-compile-env:
+    image: openrasp-compile-env:1.0
+    container_name: openrasp-compile-env
+    tty: true
+    restart: always
+    volumes:
+      - "~/openrasp-compile-env/:/openrasp/git/"
+      
