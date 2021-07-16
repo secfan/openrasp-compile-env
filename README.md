@@ -30,8 +30,7 @@ git clone https://github.com/secfans/openrasp-compile-env.git
 2、从dockerhub拉取openrasp-compile-env 1.0版本镜像
 
 ```
-docker login https://ghcr.io
-docker pull ghcr.io/secfans/openrasp-compile-env:1.0
+docker pull secfans/openrasp-compile-env:1.0
 ```
 
 3、下载openrasp源码
